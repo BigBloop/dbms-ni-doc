@@ -1,15 +1,17 @@
 <template>
-  <div>
-    <login-page />
-  </div>
+  <main>
+    <user-registration/>
+  </main>
 </template>
 
 <script>
-  import LoginPage from "./components/LoginPage.vue";
+import UserRegistration from "./pages/UserRegistration.vue";
 
-  export default {
-    components: { LoginPage, }
+export default {
+  components: {
+    UserRegistration,
   }
+}
 </script>
 
 <style>
